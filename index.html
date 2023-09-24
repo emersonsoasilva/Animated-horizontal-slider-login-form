@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de Login e Cadastro animado</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Iniciar sessão</h2>
+
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Usuário</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Senha</label>
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox">  Lembrar-se</label>
+                </div>
+                <button type="submit">Iniciar sessão</button>
+                <div class="signUp-link">
+                    <p>Não possui uma conta? <a href="#" class="signUpBtn-link">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Cadastrar-se</h2>
+
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Usuário</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Senha</label>
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox">  Eu concordo com os termos e condições</label>
+                </div>
+                <button type="submit">Cadastrar</button>
+                <div class="signUp-link">
+                    <p>Já possui uma conta? <a href="#" class="signInBtn-link">Iniciar sessão</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
