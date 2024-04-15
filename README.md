@@ -1,3 +1,1 @@
-Formulário de Login animado [Não responsivo por enquanto]
-
-Html, CSS e Javascript básico.
+Animated login form in HTML5, CSS3 and basic JS. [Not responsive for while]
